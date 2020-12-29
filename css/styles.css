@@ -421,7 +421,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 100;
   margin-top:5px;
 }
@@ -8081,7 +8081,7 @@ button.bg-black:focus {
 
 .mr-auto,
 .mx-auto {
-  margin-right: auto !important;
+  /* margin-right: auto !important; */
 }
 
 .mb-auto,
@@ -8091,7 +8091,7 @@ button.bg-black:focus {
 
 .ml-auto,
 .mx-auto {
-  margin-left: auto !important;
+  /* margin-left: auto !important; */
 }
 
 @media (min-width: 576px) {
