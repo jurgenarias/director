@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N5YCMXVCN8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-N5YCMXVCN8');
-</script>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <title>Movies!</title>
-
-  <link rel="icon" type="image/x-icon" href="assets/img/id.png" />
-  <!-- Font Awesome icons (free version)-->
-  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-  <!-- Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-
-  <link
-    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-    rel="stylesheet" />
-  <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="css/styles.css" rel="stylesheet" />
-
-</head>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5YCMXVCN8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+  
+      gtag('config', 'G-N5YCMXVCN8');
+    </script>
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <meta name="viewport" content="width=1000 user-scalable=0" />
+  
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" /> -->
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Movies!</title>
+  
+    <link rel="icon" type="image/x-icon" href="assets/img/film.svg" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  
+  </head>
 
 
 
 
 <body>
-  <!-- Navigation-->
-  <!-- The video -->
 
 
   <video autoplay muted loop id="myVideo">
@@ -51,6 +53,8 @@
       <div class="row">
         <div class="col-md-12">
           <div class="mx-auto">
+            <br>
+            <br>
             <br>
             <h1 class=>Find Movies!</h1> 
             <h2 class=>Enter the name of a director to see his/her best movies!</h2>
@@ -78,7 +82,7 @@
 
           <div class="input-group input-group-newsletter">
 
-            <input class="form-control" id="patient-form-input" placeholder="Enter director..."
+            <input class="form-control" id="user-input" placeholder="Enter director..."
               aria-label="Enter email..." aria-describedby="submit-button">
               <br>
               <br>
@@ -87,13 +91,12 @@
               <div class="boton input-group-append" id="boton">
               <button class="boton btn btn-secondary" type="button" id="button">Find Movies!</button>
             </div>
-            <!-- </input> -->
           </div>
         </form>
 
-        <p class="noresults">
+        <p class="noresults"> 
         </p>
-        <p class="noresults2">
+        <p class="noresults2">It might take a few seconds to load the database for your first search (depending on your internet connection)
         </p>
 
         <table class="table" cellpadding="10">
